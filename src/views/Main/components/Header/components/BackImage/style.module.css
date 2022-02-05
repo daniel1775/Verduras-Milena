@@ -1,0 +1,8 @@
+.backImage__container{
+  position: relative;
+}
+
+.backImage__bg{
+  width: 100vw;
+  height: 65vh;
+}

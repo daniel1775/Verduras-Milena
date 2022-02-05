@@ -1,0 +1,22 @@
+.menu_container{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style: none;
+  width: 100%;
+  height: available;
+  color: black;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.show{
+  display: flex;
+}
+
+.hide{
+  display: none;
+}

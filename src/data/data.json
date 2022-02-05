@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Lechuga crespa",
+    "price": 1800,
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "Zucchini",
+    "price": 1800,
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "Lechuga",
+    "price": 1800,
+    "image": ""
+  },
+  {
+    "id": 4,
+    "name": "Berenjena",
+    "price": 1800,
+    "image": ""
+  },
+  {
+    "id": 5,
+    "name": "Pimentón",
+    "price": 1800,
+    "image": ""
+  }
+]

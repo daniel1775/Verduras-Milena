@@ -1,0 +1,13 @@
+.header__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header__logo{
+  margin-bottom: 5%;
+  margin-top: 30%;
+}
