@@ -1,3 +1,4 @@
+import data from "../../../../data/data.json";
 import TextFooter from "./components/TextFooter";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,7 +10,7 @@ export default function Footer(){
     <div className={style.container_footer}>
       <TextFooter 
         icon={<FontAwesomeIcon className={style.font_icon} icon="clock"/>} 
-        text="Lun-Dom: 6:00am-4pm" 
+        text="Lun-Dom: 6:00am-4pm"
       />
       <TextFooter 
         icon={<FontAwesomeIcon className={style.font_icon} icon="phone-alt"/>} 
@@ -24,6 +25,7 @@ export default function Footer(){
         text={<>Plaza Paloquemao<br/>Local 83067</>} 
       />
       <p className={style.rights}>Todos los derechos reservados © 2022</p>
+      <img src={data[4].image} alt="" />
     </div>
   );
 }
