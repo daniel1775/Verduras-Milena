@@ -1,0 +1,10 @@
+.container_title{
+  width: 80%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container_title hr{
+  border: 1px solid var(--orange);
+  margin: 0;
+}

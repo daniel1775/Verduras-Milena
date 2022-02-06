@@ -1,8 +1,10 @@
+import Menu from "../Menu";
+
 import style from "./style.module.css";
 
 import BarsButton from "./components/BarsButton";
 import { useEffect, useState } from "react";
-import Menu from "../Menu";
+
 
 export default function Nav(){
   const [ toggle, setToggle ] = useState(false);

@@ -1,0 +1,11 @@
+.container_info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 751px){
+  .container_info{
+    justify-content: space-evenly;
+  }
+}

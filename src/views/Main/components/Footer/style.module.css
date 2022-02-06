@@ -1,0 +1,18 @@
+.container_footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--greenDark);
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 40px;
+}
+
+.rights{
+  margin-top: 140px;
+}
+
+.font_icon{
+  font-size: 3.5rem;
+}

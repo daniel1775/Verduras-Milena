@@ -1,0 +1,45 @@
+.container_card{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 80px;
+}
+
+.icon_cont{
+  position: absolute;
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.box{
+  border: 2px solid var(--green);
+  color: var(--green);
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.box h3{
+  margin-top: 50px;
+}
+
+.box p{
+  max-width: 80%;
+}
+
+@media (min-width: 450px) and (max-width: 750px){
+  .container_card{
+    width: 60%;
+  }
+}
+
+@media (min-width: 751px){
+  .container_card{
+    width: calc(60% / 3);
+  }
+}

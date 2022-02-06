@@ -1,6 +1,16 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Red Hat Text', sans-serif;
+  font-size: 1.4rem;
+}
+
+:root{
+  --green: #357401;
+  --orange: #F75A00;
+  --greenDark: #20360D;
+  --orangeDark: #BA4C0D;
+  --gray: #4D4C4C;
 }
 
 code {

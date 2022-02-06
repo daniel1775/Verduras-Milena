@@ -9,7 +9,7 @@ export default function Menu(props){
       <li>INFORMACION</li>
       <li>HISTORIA</li>
       <li>RECETAS</li>
-      <li>DOMICILIOS</li>
+      <li className={style.domicile}>DOMICILIOS</li>
     </ul>
   );
 }
