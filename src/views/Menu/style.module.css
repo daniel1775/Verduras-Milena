@@ -16,11 +16,15 @@
 
 .domicile{
   background-color: #357401;
-  color: white;
   width: 90%;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.domicile a{
+  text-decoration: none;
+  color: white;
 }
 
 .show{

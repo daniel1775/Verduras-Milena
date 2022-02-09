@@ -12,10 +12,10 @@ export default function Recipes(){
     <div className={style.container_recipes}>
       <Title titleOne="RECETAS" titleTwo="" middle={false} />
         <div className={style.container_cards}>
-          <CardImage image={ajiaco} title="Ajiaco"/>
-          <CardImage image={papas} title="Papas chorriadas"/>
-          <CardImage image={cocido} title="Cocido boyacense"/>
-          <CardImage image={sancocho} title="Sancocho"/>
+          <CardImage image={<img className={style.image} src={ajiaco} alt="" />} title="Ajiaco"/>
+          <CardImage image={<img className={style.image} src={papas} alt="" />} title="Papas chorriadas"/>
+          <CardImage image={<img className={style.image} src={cocido} alt="" />} title="Cocido boyacense"/>
+          <CardImage image={<img className={style.image} src={sancocho} alt="" />} title="Sancocho"/>
         </div>
     </div>
   );

@@ -7,7 +7,20 @@ import {
   faMapMarkerAlt,
   faSearch,
   faPlus,
-  faMinus
+  faMinus,
+  faShoppingCart,
+  faTimes
 }from "@fortawesome/free-solid-svg-icons";
 
-library.add(faBars, faClock, faPhoneAlt, faEnvelope, faMapMarkerAlt, faSearch, faPlus, faMinus);
+library.add(
+  faBars, 
+  faClock, 
+  faPhoneAlt, 
+  faEnvelope, 
+  faMapMarkerAlt, 
+  faSearch, 
+  faPlus, 
+  faMinus, 
+  faShoppingCart, 
+  faTimes)
+;

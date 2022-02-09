@@ -1,4 +1,5 @@
 import style from "./style.module.css";
+import { Link } from "react-router-dom";
 
 export default function Menu(props){
   const { show } = props;
@@ -9,7 +10,7 @@ export default function Menu(props){
       <li>INFORMACION</li>
       <li>HISTORIA</li>
       <li>RECETAS</li>
-      <li className={style.domicile}>DOMICILIOS</li>
+      <li className={style.domicile}><Link to="/domicile">DOMICILIOS</Link></li>
     </ul>
   );
 }
