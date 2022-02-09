@@ -1,0 +1,27 @@
+.container_searchbox{
+  display: flex;
+  margin-top: 20px;
+}
+
+.search_input{
+  border: none;
+  border-radius: 7px;
+  margin-right: 5px;
+  font-size: 1.3rem;
+  background-color: rgba(219, 219, 219, 0.795);
+  height: 40px;
+  color: var(--gray);
+  padding-left: 10px;
+}
+
+.search_input:focus{
+  outline: none;
+}
+
+.search_button{
+  border: none;
+  background-color: white;
+  font-size: 1.2rem;
+  color: var(--orange);
+}
+

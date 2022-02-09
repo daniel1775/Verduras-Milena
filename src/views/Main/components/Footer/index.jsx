@@ -25,7 +25,6 @@ export default function Footer(){
         text={<>Plaza Paloquemao<br/>Local 83067</>} 
       />
       <p className={style.rights}>Todos los derechos reservados © 2022</p>
-      <img src={data[4].image} alt="" />
     </div>
   );
 }

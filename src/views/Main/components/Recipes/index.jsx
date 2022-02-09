@@ -1,5 +1,5 @@
-import Title from "../../../../components/Title"
-import CardRecipe from "./components/CardRecipe"
+import Title from "../../../../components/Title";
+import CardImage from "../../../../components/CardImage";
 
 import style from "./style.module.css";
 import ajiaco from "../../../../images/ajiaco.png";
@@ -12,10 +12,10 @@ export default function Recipes(){
     <div className={style.container_recipes}>
       <Title titleOne="RECETAS" titleTwo="" middle={false} />
         <div className={style.container_cards}>
-          <CardRecipe image={ajiaco} title="Ajiaco"/>
-          <CardRecipe image={papas} title="Papas chorriadas"/>
-          <CardRecipe image={cocido} title="Cocido boyacense"/>
-          <CardRecipe image={sancocho} title="Sancocho"/>
+          <CardImage image={ajiaco} title="Ajiaco"/>
+          <CardImage image={papas} title="Papas chorriadas"/>
+          <CardImage image={cocido} title="Cocido boyacense"/>
+          <CardImage image={sancocho} title="Sancocho"/>
         </div>
     </div>
   );

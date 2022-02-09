@@ -3,133 +3,182 @@
     "a": "http://drive.google.com/uc?export=view&id=",
     "id": 1,
     "name": "Ajo",
-    "price": 2000,
-    "image": "https://drive.google.com/uc?export=view&id=1mCwS5DUFjQWIN77zNflOweFAsLWw6P7e"
+    "price": 1000,
+    "type": "vegetable",
+    "image": "https://drive.google.com/uc?export=view&id=1mCwS5DUFjQWIN77zNflOweFAsLWw6P7e",
+    "unit": true
   },
   {
+    "a": "http://drive.google.com/uc?export=view&id=",
     "id": 2,
-    "name": "Berenjena",
-    "price": 1700,
-    "image": "http://drive.google.com/uc?export=view&id=1RX78k4r_Lpuq3tgptMc9Si3ABiULFyiS"
+    "name": "Banano",
+    "price": 1300,
+    "type": "fruit",
+    "image": "https://drive.google.com/uc?export=view&id=1Rb049NrQeqavzVHhtSK7FJjN81PqyD4j"
   },
   {
     "id": 3,
-    "name": "Cebolla cabezona roja",
-    "price": 1500,
-    "image": "http://drive.google.com/uc?export=view&id=1VktwTU2LW3W2p7-0vh8n3rNC9s4wIBZ1"
+    "name": "Berenjena",
+    "price": 1700,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=158oARaVCZu2OETOeh3SUw8bdjI70nXQj"
   },
   {
     "id": 4,
-    "name": "Cebolla cabezona blanca",
-    "price": 1200,
-    "image": "http://drive.google.com/uc?export=view&id=1GFOCKgF6Dt45_B9ADIKnuy33-vnAfe-Q"
+    "name": "Cebolla cabezona roja",
+    "name_alt": "C. cabezona roja",
+    "price": 1500,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1VktwTU2LW3W2p7-0vh8n3rNC9s4wIBZ1"
   },
   {
     "id": 5,
-    "name": "Calabacín",
-    "price": 2000,
-    "image": "http://drive.google.com/uc?export=view&id=1VTd0vYh5--cpMBlYmZVkb5ILuVtVS-JS"
+    "name": "Cebolla cabezona blanca",
+    "name_alt": "C. cabezona blanca",
+    "price": 1200,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1GFOCKgF6Dt45_B9ADIKnuy33-vnAfe-Q"
   },
   {
     "id": 6,
-    "name": "Cebolla larga",
-    "price": 1800,
-    "image": "http://drive.google.com/uc?export=view&id=1M6EJbsRnediSTo5RtXcOAfcmw--nuSd4"
+    "name": "Calabacín",
+    "price": 2000,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1VTd0vYh5--cpMBlYmZVkb5ILuVtVS-JS"
   },
   {
     "id": 7,
-    "name": "Papa criolla",
-    "price": 2000,
-    "image": "http://drive.google.com/uc?export=view&id=1-OA5I-mmYkXv73VTHbGEyko7cYbKII9X"
+    "name": "Cebolla larga",
+    "price": 1800,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1M6EJbsRnediSTo5RtXcOAfcmw--nuSd4"
   },
   {
     "id": 8,
-    "name": "Frijol",
-    "price": 2500,
-    "image": "http://drive.google.com/uc?export=view&id=1X6W7OmUeBABNE0A2wgw5utD_UTSNozLJ"
+    "name": "Papa criolla",
+    "price": 2000,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1-OA5I-mmYkXv73VTHbGEyko7cYbKII9X"
   },
   {
     "id": 9,
-    "name": "Habichuela",
-    "price": 1200,
-    "image": "http://drive.google.com/uc?export=view&id=1RX78k4r_Lpuq3tgptMc9Si3ABiULFyiS"
+    "name": "Frijol",
+    "price": 2500,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1X6W7OmUeBABNE0A2wgw5utD_UTSNozLJ"
   },
   {
     "id": 10,
-    "name": "Lechuga crespa",
-    "price": 2500,
-    "image": "http://drive.google.com/uc?export=view&id=1ieL6i8nMr2VQ1bMKiaWUj451dPl6Q0oA"
+    "name": "Habichuela",
+    "price": 1200,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1RX78k4r_Lpuq3tgptMc9Si3ABiULFyiS"
   },
   {
     "id": 11,
-    "name": "Lechuga batavia",
-    "price": 1500,
-    "image": "http://drive.google.com/uc?export=view&id=1F_KcS0cMG9YboWq1hwiEffdbP0rs2nIT"
+    "name": "Lechuga crespa",
+    "price": 2500,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1ieL6i8nMr2VQ1bMKiaWUj451dPl6Q0oA"
   },
   {
     "id": 12,
-    "name": "Papa pastusa",
-    "price": 1300,
-    "image": "http://drive.google.com/uc?export=view&id=10vfmUkyIzgaRpJ11ciE52eUAcSK-Th4m"
+    "name": "Lechuga batavia",
+    "price": 1500,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1F_KcS0cMG9YboWq1hwiEffdbP0rs2nIT"
   },
   {
     "id": 13,
-    "name": "Papa sabanera",
-    "price": 2000,
-    "image": "http://drive.google.com/uc?export=view&id=1rW9Z24wqEU43yRbcl5u520-StGss63e-"
+    "name": "Manzana",
+    "price": 1300,
+    "type": "fruit",
+    "image": "http://drive.google.com/uc?export=view&id=1VrLh1FuaToYysU69vR9n1CCw3JMkwtID",
+    "unit": true
   },
   {
     "id": 14,
-    "name": "Pepino cohombro",
-    "price": 1000,
-    "image": "http://drive.google.com/uc?export=view&id=1WO-_awwTc2i9ncqToR6K223vw7E6HrTy"
+    "name": "Papa pastusa",
+    "price": 1300,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=10vfmUkyIzgaRpJ11ciE52eUAcSK-Th4m"
   },
   {
     "id": 15,
-    "name": "Pimentón",
-    "price": 1800,
-    "image": "http://drive.google.com/uc?export=view&id=10TFGBO95nU8KTISD90wT87_IgkLzukzJ"
+    "name": "Papa sabanera",
+    "price": 2000,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1rW9Z24wqEU43yRbcl5u520-StGss63e-"
   },
   {
     "id": 16,
-    "name": "Plátano verde",
-    "price": 1300,
-    "image": "http://drive.google.com/uc?export=view&id=1vKurzooQsdGFl7YrAcjR63hmdbxdws6g"
+    "name": "Pepino cohombro",
+    "price": 1000,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1WO-_awwTc2i9ncqToR6K223vw7E6HrTy"
   },
   {
     "id": 17,
-    "name": "Remolacha",
-    "price": 900,
-    "image": "http://drive.google.com/uc?export=view&id=1jG0JWLRURTzdYrDM2o035ZvpEG9ZqyAf"
+    "name": "Pimentón",
+    "price": 1800,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=10TFGBO95nU8KTISD90wT87_IgkLzukzJ"
   },
   {
     "id": 18,
-    "name": "Tomate verde",
-    "price": 2000,
-    "image": "http://drive.google.com/uc?export=view&id=1He4MTr_PI94UBGY6CkOgv9Kb2EDAX9L6"
+    "name": "Piña",
+    "price": 2300,
+    "type": "fruit",
+    "image": "http://drive.google.com/uc?export=view&id=12_cj70yqu4g0OmHjR221BSbe_fsaj5cH",
+    "unit": true
   },
   {
     "id": 19,
-    "name": "Tomate",
-    "price": 1800,
-    "image": "http://drive.google.com/uc?export=view&id=15xm4BDXIkxNFV694jxhenOV2Lw8fmclC"
+    "name": "Plátano verde",
+    "price": 1300,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1vKurzooQsdGFl7YrAcjR63hmdbxdws6g"
   },
   {
     "id": 20,
-    "name": "Yuca",
-    "price": 1300,
-    "image": "http://drive.google.com/uc?export=view&id=15fJbbBhfNStIn8LeevIroARMjmR4TOVv"
+    "name": "Remolacha",
+    "price": 900,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1jG0JWLRURTzdYrDM2o035ZvpEG9ZqyAf"
   },
   {
     "id": 21,
-    "name": "Zanahoria",
-    "price": 1100,
-    "image": "http://drive.google.com/uc?export=view&id=13sSV8_sVzRjI6bvoIlHM1i2oQVmt9tf8"
+    "name": "Tomate verde",
+    "price": 2000,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=1He4MTr_PI94UBGY6CkOgv9Kb2EDAX9L6"
   },
   {
     "id": 22,
+    "name": "Tomate",
+    "price": 1800,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=15xm4BDXIkxNFV694jxhenOV2Lw8fmclC"
+  },
+  {
+    "id": 23,
+    "name": "Yuca",
+    "price": 1300,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=15fJbbBhfNStIn8LeevIroARMjmR4TOVv"
+  },
+  {
+    "id": 24,
+    "name": "Zanahoria",
+    "price": 1100,
+    "type": "vegetable",
+    "image": "http://drive.google.com/uc?export=view&id=13sSV8_sVzRjI6bvoIlHM1i2oQVmt9tf8"
+  },
+  {
+    "id": 25,
     "name": "Zucchini",
     "price": 1500,
+    "type": "vegetable",
     "image": "http://drive.google.com/uc?export=view&id=1ojZZnzdJXN9i723nFU7NRVm9d3IFr6Av"
   }
 ]
