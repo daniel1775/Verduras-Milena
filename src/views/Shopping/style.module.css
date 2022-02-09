@@ -5,6 +5,10 @@
   padding-top: 30%;
 }
 
+.title{
+  font-size: 2rem;
+}
+
 .product_list{
   display: flex;
   justify-content: center;

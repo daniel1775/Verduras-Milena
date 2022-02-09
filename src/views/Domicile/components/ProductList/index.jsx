@@ -1,5 +1,4 @@
 import Title from "../../../../components/Title";
-import CardProduct from "./components/CardProduct";
 
 import style from "./style.module.css";
 

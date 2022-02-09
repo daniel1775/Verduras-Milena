@@ -18,8 +18,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/domicile" element={<Domicile setBasket={setBasket} />} />
-        <Route path="/shopping" element={<Shopping basket={basket} />} />
+        <Route path="/domicile" element={<Domicile basket={basket} setBasket={setBasket} />} />
+        <Route path="/shopping" element={<Shopping basket={basket} setBasket={setBasket}/>} />
       </Routes>
     </BrowserRouter>
   );

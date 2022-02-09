@@ -1,13 +1,32 @@
-.shopping_cart{
+.container_cartbutton{
   position: fixed;
-  font-size: 3.4rem;
-  color: white;
-  padding: 5%;
   top: 75vh;
   left: 65vw;
+  z-index: 8;
+}
+
+.shopping_cart{
+  font-size: 3.4rem;
+  color: white;
   border-radius: 50%;
   background-color: var(--orange);
   border: 3px solid black;
   padding: 4%;
-  z-index: 8;
+  width: 5.8rem;
+  height: 5.8rem;
+}
+
+.amount{
+  position: absolute;
+  background-color: var(--green);
+  border: 3px solid black;
+  border-radius: 60%;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  top: -15px;
+  right: -15px;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
 }

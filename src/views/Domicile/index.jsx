@@ -13,7 +13,7 @@ import style from "./style.module.css";
 import { Link } from "react-router-dom";
 
 export default function Domicile(props){
-  const { setBasket } = props;
+  const { basket, setBasket } = props;
 
   const [ dataFilter, setDataFilter ] = useState(data);
   const [ search, setSearch ] = useState("");
@@ -27,14 +27,14 @@ export default function Domicile(props){
 
   return(
     <div className={style.container_domicile}>
-      <Link to="/shopping"><CartButton /></Link>
+      <Link to="/shopping"><CartButton amount={basket.length} /></Link>
       <Categories onChangeFilter={changeFilter} setSearch={setSearch} />
       <ProductList 
         dataFilter={dataFilter}
         search={search}
         searchBox={<SearchBox onChangeFilter={changeFilter} setSearch={setSearch} />}
         onDataFilter={dataFilter.map((element) => (
-          <CardProduct key={element.id} data={element} close={true} setBasket={setBasket}/>
+          <CardProduct key={element.id} data={element} close={true} setBasket={setBasket} />
         ))}
       >
         
