@@ -1,4 +1,4 @@
-import Menu from "../Menu";
+import Menu from "./components/Menu";
 
 import style from "./style.module.css";
 
@@ -8,9 +8,13 @@ import { useEffect, useState } from "react";
 
 export default function Nav(){
   const [ toggle, setToggle ] = useState(false);
-  
+
   const handleToggle = () => {
     setToggle(!toggle);
+  }
+
+  const hideMenu = () => {
+    setToggle(false);
   }
 
   return(
@@ -18,7 +22,7 @@ export default function Nav(){
       <div className={style.nav}>
         <BarsButton onToggle={handleToggle} />
       </div>
-      <Menu show={toggle} />
+      <Menu show={toggle} onHideMenu={hideMenu}/>
     </div>
   );
 }

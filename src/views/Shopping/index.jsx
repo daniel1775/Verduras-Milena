@@ -14,7 +14,6 @@ export default function Shopping(props){
           <CardProduct key={element.id} data={element} close={false} setBasket={setBasket}/>
         ))}
       </div>
-      
     </div>
   );
 }
