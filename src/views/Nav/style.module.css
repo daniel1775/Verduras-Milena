@@ -1,16 +1,15 @@
 .container{
   width: 100vw;
-  height: auto;
   position: fixed;
-  z-index: 5;
+  z-index: 2;
 }
 
-.container_completed{
-  height: 100vh;
+.show{
+  display: inline-block;
 }
 
-.container_reduced{
-  height: auto;
+.hide{
+  display: none;
 }
 
 .nav{

@@ -9,7 +9,8 @@ import {
   faPlus,
   faMinus,
   faShoppingCart,
-  faTimes
+  faTimes,
+  faArrowLeft
 }from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -22,5 +23,6 @@ library.add(
   faPlus, 
   faMinus, 
   faShoppingCart, 
-  faTimes)
-;
+  faTimes,
+  faArrowLeft
+);

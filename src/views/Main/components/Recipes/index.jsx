@@ -9,7 +9,7 @@ import sancocho from "../../../../images/sancocho.png";
 
 export default function Recipes(){
   return(
-    <div className={style.container_recipes}>
+    <section className={style.container_recipes}>
       <Title titleOne="RECETAS" titleTwo="" middle={false} />
         <div className={style.container_cards}>
           <CardImage image={<img className={style.image} src={ajiaco} alt="" />} title="Ajiaco"/>
@@ -17,6 +17,6 @@ export default function Recipes(){
           <CardImage image={<img className={style.image} src={cocido} alt="" />} title="Cocido boyacense"/>
           <CardImage image={<img className={style.image} src={sancocho} alt="" />} title="Sancocho"/>
         </div>
-    </div>
+    </section>
   );
 }

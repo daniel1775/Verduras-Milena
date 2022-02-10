@@ -4,7 +4,7 @@ import SearchBox from "./components/ProductList/components/SearchBox";
 import CartButton from "./components/CartButton";
 import CardProduct from "./components/ProductList/components/CardProduct";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import "../../FontAwesome";
 import data from "../../data/data.json";
@@ -13,7 +13,11 @@ import style from "./style.module.css";
 import { Link } from "react-router-dom";
 
 export default function Domicile(props){
-  const { basket, setBasket } = props;
+  const { basket, setBasket, onShow } = props;
+
+  useEffect(() => {
+    onShow();
+  }, []);
 
   const [ dataFilter, setDataFilter ] = useState(data);
   const [ search, setSearch ] = useState("");
@@ -26,10 +30,10 @@ export default function Domicile(props){
   }
 
   return(
-    <div className={style.container_domicile}>
+    <section className={style.container_domicile}>
       <Link to="/shopping"><CartButton amount={basket.length} /></Link>
       <Categories onChangeFilter={changeFilter} setSearch={setSearch} />
-      <ProductList 
+      <ProductList
         dataFilter={dataFilter}
         search={search}
         searchBox={<SearchBox onChangeFilter={changeFilter} setSearch={setSearch} />}
@@ -37,8 +41,7 @@ export default function Domicile(props){
           <CardProduct key={element.id} data={element} close={true} setBasket={setBasket} />
         ))}
       >
-        
       </ProductList>
-    </div>
+    </section>
   );
 }

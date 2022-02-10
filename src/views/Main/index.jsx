@@ -1,21 +1,24 @@
-import Nav from "../Nav";
 import Header from "./components/Header";
 import Info from "./components/Info";
 import History from "./components/History";
 import Recipes from "./components/Recipes";
-import Footer from "./components/Footer";
 
 import style from "./style.module.css";
+import { useEffect } from "react";
 
-export default function Main(){
+export default function Main(props){
+  const { onShow } = props;
+
+  useEffect(() => {
+    onShow();
+  }, []);
+
   return(
-    <div className={style.containeer}>
-      <Nav />
+    <main className={style.containeer}>
       <Header />
       <Info />
       <History />
       <Recipes />
-      <Footer />
-    </div>
+    </main>
   );
 }

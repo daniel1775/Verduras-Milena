@@ -1,13 +1,14 @@
-import data from "../../../../data/data.json";
 import TextFooter from "./components/TextFooter";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../../../../FontAwesome";
+import "../../FontAwesome";
 import style from "./style.module.css";
 
-export default function Footer(){
+export default function Footer(props){
+  const { hideSection } = props;
+
   return(
-    <div className={style.container_footer}>
+    <footer className={`${style.container_footer} ${hideSection ? style.hide : style.show}`}>
       <TextFooter 
         icon={<FontAwesomeIcon className={style.font_icon} icon="clock"/>} 
         text="Lun-Dom: 6:00am-4pm"
@@ -20,11 +21,11 @@ export default function Footer(){
         icon={<FontAwesomeIcon className={style.font_icon} icon="envelope"/>} 
         text="verdurasmilena2605@gmail.com" 
       />
-      <TextFooter 
+      <TextFooter
         icon={<FontAwesomeIcon className={style.font_icon} icon="map-marker-alt"/>} 
         text={<>Plaza Paloquemao<br/>Local 83067</>} 
       />
       <p className={style.rights}>Todos los derechos reservados © 2022</p>
-    </div>
+    </footer>
   );
 }

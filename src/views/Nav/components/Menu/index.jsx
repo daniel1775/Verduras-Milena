@@ -6,19 +6,31 @@ export default function Menu(props){
 
   return(
     <ul className={`${style.menu_container} ${show ? style.show : style.hide}`}>
-      <li>INICIO</li>
-      <li>INFORMACION</li>
-      <li>HISTORIA</li>
-      <li>RECETAS</li>
-      <li onClick={() => onHideMenu()}>
-        <NavLink
-          to="/domicile" 
-          className={isActive => `${style.domicile} ${isActive ? style.active : ""}`}
-        >
-        DOMICILIOS
+      <li className={style.item} onClick={() => onHideMenu()}>
+        <NavLink to="/" className={isActive => `${isActive ? style.active : ""}`}>
+          INICIO
         </NavLink>
       </li>
-      
+      <li className={style.item} onClick={() => onHideMenu()}>
+        <NavLink to="/" className={isActive => `${isActive ? style.active : ""}`}>
+          INFORMACIÓN
+        </NavLink>
+      </li>
+      <li className={style.item} onClick={() => onHideMenu()}>
+        <NavLink to="/" className={isActive => `${isActive ? style.active : ""}`}>
+          HISTORIA
+        </NavLink>
+      </li>
+      <li className={style.item} onClick={() => onHideMenu()}>
+        <NavLink to="/" className={isActive => `${isActive ? style.active : ""}`}>
+          RECETAS
+        </NavLink>
+      </li>
+      <li className={style.domicile} onClick={() => onHideMenu()}>
+        <NavLink to="/domicile">
+          DOMICILIOS
+        </NavLink>
+      </li>
     </ul>
   );
 }

@@ -15,10 +15,8 @@ export default function CardProduct(props){
       element.id === data.id
     ));
     // Check ===
-    if(aux==0)
+    if(aux===0)
       return([...prev, {...data, "amount": amount}]);
-    else
-      return([...prev]);
   }
 
   return(
@@ -46,7 +44,7 @@ export default function CardProduct(props){
         </div>
         <Increase amount={amount} setAmount={setAmount} />
         <div className={`${style.button} ${!close ? style.button_hidden : style.button_show}`}>
-          <button 
+          <button
             className={style.add}
             onClick={() => setBasket((prev) => addProduct(prev))}
           >

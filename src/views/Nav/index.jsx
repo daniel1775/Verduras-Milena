@@ -3,10 +3,11 @@ import Menu from "./components/Menu";
 import style from "./style.module.css";
 
 import BarsButton from "./components/BarsButton";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 
-export default function Nav(){
+export default function Nav(props){
+  const { hideSection } = props;
   const [ toggle, setToggle ] = useState(false);
 
   const handleToggle = () => {
@@ -18,11 +19,11 @@ export default function Nav(){
   }
 
   return(
-    <div className={`${style.container} ${toggle ? style.container_completed : style.container_reduced}`}>
+    <nav className={`${style.container} ${hideSection ? style.hide : style.show}`}>
       <div className={style.nav}>
         <BarsButton onToggle={handleToggle} />
       </div>
       <Menu show={toggle} onHideMenu={hideMenu}/>
-    </div>
+    </nav>
   );
 }
