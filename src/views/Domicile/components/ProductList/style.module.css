@@ -17,7 +17,7 @@
 
 .filter_text{
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   font-style: italic;
   font-size: 20px;
   width: 100%;
