@@ -14,7 +14,7 @@ export default function Shopping(props){
 
   useEffect(() => {
     onHide();
-  }, [])
+  })
 
   useEffect(() => {
     let sum=0;

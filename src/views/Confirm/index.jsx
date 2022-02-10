@@ -12,10 +12,10 @@ export default function Confirm(props){
 
   useEffect(() => {
     onHide();
-  }, []);
+  });
 
   const sendJSON = () => {
-    let message = `Nombre:%20${name}%0ADirección:%20${dir}%0A%0A`;
+    let message = `https://api.whatsapp.com/send?phone=573155299982&text=Nombre:%20${name}%0ADirección:%20${dir}%0A%0A`;
     let total = 0;
 
     basket.forEach(element => {
@@ -42,7 +42,7 @@ export default function Confirm(props){
       <div className={style.label}>
         <label>
           Nombre / empresa
-          <input 
+          <input
             className={style.input}
             type="text"
             placeholder="Digita tu nombre"
@@ -64,10 +64,11 @@ export default function Confirm(props){
         </label>
       </div>
       <div className={style.button_cont}>
-        <a href={`https://api.whatsapp.com/send?phone=573155299982&text=${sendJSON()}`}>
-          <button className={style.button}>¡HAZ TU PEDIDO!</button>
-        </a>
-        
+        <button className={style.button}>
+          <a href={sendJSON()}>
+            ¡HAZ TU PEDIDO!
+          </a>
+        </button>
       </div>
     </section>
   );

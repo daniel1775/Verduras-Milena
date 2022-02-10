@@ -1,4 +1,5 @@
-import bg from "../../../../../../images/bg-header-movile.png";
+
+import bg_movil from "../../../../../../images/bg-header-movile.png";
 import style from "./style.module.css";
 
 export default function BackImage(props){
@@ -7,7 +8,7 @@ export default function BackImage(props){
   return(
     <div className={style.backImage__container}>
       {stay()}
-      <img className={style.backImage__bg} src={bg} alt="" />
+      <img className={style.backImage__bg} src={bg_movil} alt="" />
     </div>
   );
 }
