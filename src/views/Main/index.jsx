@@ -11,7 +11,7 @@ export default function Main(props){
 
   useEffect(() => {
     onShow();
-  }, []);
+  });
 
   return(
     <main className={style.containeer}>

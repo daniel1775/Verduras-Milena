@@ -17,7 +17,7 @@ export default function Domicile(props){
 
   useEffect(() => {
     onShow();
-  }, []);
+  });
 
   const [ dataFilter, setDataFilter ] = useState(data);
   const [ search, setSearch ] = useState("");
