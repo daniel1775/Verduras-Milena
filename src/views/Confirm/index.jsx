@@ -12,7 +12,21 @@ export default function Confirm(props){
 
   useEffect(() => {
     onHide();
-  }, [])
+  }, []);
+
+  const sendJSON = () => {
+    let message = `Nombre:%20${name}%0ADirección:%20${dir}%0A%0A`;
+    let total = 0;
+
+    basket.forEach(element => {
+      total+=element.amount*element.price;
+      message+=`Producto: ${element.name}%0ACantidad: ${element.amount} lbs%0ASub-total: $${element.amount*element.price}%0A%0A`;
+    });
+
+    message+=`Total%20a%20pagar:%20$${total}`;
+
+    return(message);
+  }
 
   return(
     <section className={style.container_confirm}>
@@ -50,9 +64,10 @@ export default function Confirm(props){
         </label>
       </div>
       <div className={style.button_cont}>
-        <a href="https://api.whatsapp.com/send?phone=573155299982&text=MiRey">
+        <a href={`https://api.whatsapp.com/send?phone=573155299982&text=${sendJSON()}`}>
           <button className={style.button}>¡HAZ TU PEDIDO!</button>
         </a>
+        
       </div>
     </section>
   );

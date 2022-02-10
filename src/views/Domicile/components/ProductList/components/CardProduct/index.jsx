@@ -14,8 +14,7 @@ export default function CardProduct(props){
     let aux = prev.filter(element => (
       element.id === data.id
     ));
-    // Check ===
-    if(aux==0)
+    if(aux.length===0)
       return([...prev, {...data, "amount": amount}]);
     else
       return([...prev]);
