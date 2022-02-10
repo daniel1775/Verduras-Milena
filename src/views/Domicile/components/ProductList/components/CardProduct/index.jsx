@@ -15,8 +15,10 @@ export default function CardProduct(props){
       element.id === data.id
     ));
     // Check ===
-    if(aux===0)
+    if(aux==0)
       return([...prev, {...data, "amount": amount}]);
+    else
+      return([...prev]);
   }
 
   return(
