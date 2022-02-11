@@ -6,3 +6,10 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+@media (min-width: 1300px) {
+  .text_footer{
+    width: auto;
+    font-size: 1.2rem;
+  }
+}

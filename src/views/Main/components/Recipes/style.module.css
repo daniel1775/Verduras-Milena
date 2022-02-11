@@ -7,12 +7,23 @@
 
 .container_cards{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
   background-color: var(--orangeDark);
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+@media (min-width: 1300px) {
+  .container_cards{
+    justify-content: space-around;
+  }
+
+  .container_cards img{
+    width: 20vw;
+    height: 20vw;
+  }
 }

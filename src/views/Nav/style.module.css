@@ -23,7 +23,7 @@
 @media (min-width: 1300px){
   .container{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     background-color: #F75A00;
   }
 

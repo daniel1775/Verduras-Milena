@@ -1,9 +1,14 @@
 .container_footer{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   background-color: var(--greenDark);
   color: white;
+}
+
+.container_items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
   margin-top: 60px;
   padding-top: 40px;
@@ -19,8 +24,19 @@
 
 .rights{
   margin-top: 140px;
+  text-align: center;
 }
 
 .font_icon{
   font-size: 3.5rem;
+}
+
+@media (min-width: 1300px) {
+  .container_footer{
+    justify-content: space-between;
+  }
+
+  .container_items{
+    justify-content: space-around;
+  }
 }
