@@ -1,17 +1,30 @@
-.backImage__container{
+.container_image{
   position: relative;
 }
 
-.backImage__bg{
+.movil_image{
   width: 100vw;
   height: 65vh;
 }
 
-/*@media (min-width: 1000px){
-  .backImage__container{
+.desktop_image{
+  display: none;
+}
+
+@media (min-width: 1300px){
+  .container__image{
+    display: inline-block;
+    position: fixed;
+    width: 100vw;
   }
-  
-  .backImage__bg{
-    
+
+  .desktop_image{
+    display: inline-block;
+    height: 100vh;
+    width: 55vw;
   }
-} */
+
+  .movil_image{
+    display: none;
+  }
+}

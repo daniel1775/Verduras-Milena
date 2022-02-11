@@ -43,3 +43,39 @@
   text-decoration: none;
   color: white;
 }
+
+@media (min-width: 1300px) {
+  .menu_container{
+    position: static;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .info{
+    display: none;
+  }
+
+  .item a{
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  .domicile a{
+    font-size: 1.2rem;
+    color: white;
+    width: auto;
+  }
+
+  .domicile{
+    padding: 0;
+    width: auto;
+    background-color: transparent;
+  }
+}

@@ -15,7 +15,7 @@ export default function Confirm(props){
   });
 
   const sendJSON = () => {
-    let message = `https://api.whatsapp.com/send?phone=573155299982&text=Nombre:%20${name}%0ADirección:%20${dir}%0A%0A`;
+    let message = `https://api.whatsapp.com/send?phone=573043327794&text=Nombre:%20${name}%0ADirección:%20${dir}%0A%0A`;
     let total = 0;
 
     basket.forEach(element => {

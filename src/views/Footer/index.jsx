@@ -15,7 +15,7 @@ export default function Footer(props){
       />
       <TextFooter 
         icon={<FontAwesomeIcon className={style.font_icon} icon="phone-alt"/>} 
-        text="3023194184" 
+        text="3043327794" 
       />
       <TextFooter 
         icon={<FontAwesomeIcon className={style.font_icon} icon="envelope"/>} 

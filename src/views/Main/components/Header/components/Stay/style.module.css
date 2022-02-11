@@ -17,11 +17,29 @@
   font-weight: bold;
 }
 
-.button_aqui{
+.button_here{
   font-size: 1.7rem;
   text-decoration: none;
   background-color: #F75A00;
   color: white;
   border: none;
   margin-bottom: 7%;
+}
+
+@media (min-width: 1300px){
+  .stay__header{
+    left: 66vw;
+    margin: 0;
+    top: 64vh;
+    border-radius: 10px;
+    width: 40%;
+    background-color: white;
+    border: 3px solid var(--green);
+    font-size: 1.2rem;
+    color: var(--gray);
+  }
+
+  .button_here{
+    font-size: 1.2rem;
+  }
 }

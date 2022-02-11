@@ -19,3 +19,15 @@
   justify-content: right;
   align-items: flex-end;
 }
+
+@media (min-width: 1300px){
+  .container{
+    display: flex;
+    justify-content: end;
+    background-color: #F75A00;
+  }
+
+  .nav{
+    display: none;
+  }
+}

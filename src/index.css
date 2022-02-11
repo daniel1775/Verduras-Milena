@@ -15,6 +15,7 @@ body {
   --greenDark: #20360D;
   --orangeDark: #BA4C0D;
   --gray: #4D4C4C;
+  --desktop: 1200px;
 }
 
 code {

@@ -5,7 +5,7 @@ export default function Stay(){
   return(
     <div className={style.stay__header}>
       <h3>Quédate en <span>casa</span> haz tus domicilios</h3>
-      <Link to="/domicile"><button className={style.button_aqui}>Aquí</button></Link>
+      <Link to="/domicile"><button className={style.button_here}>Aquí</button></Link>
     </div>
   );
 }

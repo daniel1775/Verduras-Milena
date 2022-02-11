@@ -11,7 +11,7 @@ export default function Menu(props){
           INICIO
         </NavLink>
       </li>
-      <li className={style.item} onClick={() => onHideMenu()}>
+      <li className={`${style.item} ${style.info}`} onClick={() => onHideMenu()}>
         <NavLink to="/" className={isActive => `${isActive ? style.active : ""}`}>
           INFORMACIÓN
         </NavLink>

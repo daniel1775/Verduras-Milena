@@ -6,9 +6,9 @@ import BackImage from "./components/BackImage";
 
 export default function Header(){
   return(
-    <section className={style.header__container}>
-      <img className={style.header__logo} src={logo} alt="" />
-      <BackImage stay={() => <Stay />} />
+    <section className={style.container_header}>
+      <img className={style.header_logo} src={logo} alt="" />
+      <BackImage stay={<Stay />} />
     </section>
   );
 }
